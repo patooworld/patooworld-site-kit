@@ -1,0 +1,8 @@
+{
+    "app_id": "devicesync-rxwre",
+    "config_version": 20210101,
+    "name": "DeviceSync",
+    "provider_region": "aws-us-east-2",
+    "deployment_model": "LOCAL",
+    "environment": "production"
+}
