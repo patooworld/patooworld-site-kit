@@ -1,0 +1,13 @@
+{
+    "roles": [
+        {
+            "name": "readAndWriteAll",
+            "apply_when": {},
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "read": true,
+            "write": true
+        }
+    ]
+}
