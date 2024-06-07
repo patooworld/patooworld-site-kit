@@ -4,6 +4,14 @@
         "type": "api-key",
         "disabled": false
     },
+    "custom-function": {
+        "name": "custom-function",
+        "type": "custom-function",
+        "disabled": false,
+        "config": {
+            "authFunctionName": "authFunc"
+        }
+    },
     "local-userpass": {
         "name": "local-userpass",
         "type": "local-userpass",

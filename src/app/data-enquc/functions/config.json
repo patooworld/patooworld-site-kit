@@ -2,5 +2,9 @@
     {
         "name": "resetFunc",
         "private": false
+    },
+    {
+        "name": "authFunc",
+        "private": true
     }
 ]
