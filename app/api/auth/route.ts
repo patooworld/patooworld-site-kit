@@ -19,7 +19,7 @@ import GithubProvider from  "next-auth/providers/github"
       clientId: process.env.GOOGLE_ID,
       clientSecret: process.env.GOOGLE_SECRET
     }),
-    // Passwordless / email sign in
+    //  passwordless and email sign in
     EmailProvider({
       server: process.env.MAIL_SERVER,
       from: 'NextAuth.js <samuel@example.com>'
