@@ -1,0 +1,31 @@
+{
+    "name": "Trigger-0",
+    "type": "DATABASE",
+    "disabled": false,
+    "config": {
+        "collection": "Database",
+        "database": "db",
+        "full_document": true,
+        "full_document_before_change": true,
+        "match": {},
+        "maximum_throughput": false,
+        "operation_types": [
+            "INSERT",
+            "UPDATE",
+            "DELETE",
+            "REPLACE"
+        ],
+        "project": {},
+        "service_name": "AtlasCluster",
+        "skip_catchup_events": false,
+        "tolerate_resume_errors": true,
+        "unordered": true
+    },
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "authFunc"
+            }
+        }
+    }
+}

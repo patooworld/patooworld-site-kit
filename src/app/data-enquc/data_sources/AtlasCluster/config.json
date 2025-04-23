@@ -1,0 +1,17 @@
+{
+    "name": "AtlasCluster",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "AtlasCluster",
+        "namespacePreimageConfigs": [
+            {
+                "dbName": "db",
+                "collectionName": "Database",
+                "recordPreimages": true
+            }
+        ],
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    },
+    "version": 1
+}
