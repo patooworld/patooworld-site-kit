@@ -1,5 +1,5 @@
 {
-    "name": "Trigger-0",
+    "name": "Trigger",
     "type": "DATABASE",
     "disabled": false,
     "config": {
@@ -19,7 +19,7 @@
         "service_name": "AtlasCluster",
         "skip_catchup_events": false,
         "tolerate_resume_errors": true,
-        "unordered": true
+        "unordered": false
     },
     "event_processors": {
         "FUNCTION": {

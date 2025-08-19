@@ -8,6 +8,11 @@
                 "dbName": "db",
                 "collectionName": "Database",
                 "recordPreimages": true
+            },
+            {
+                "dbName": "db",
+                "collectionName": "Database",
+                "recordPreimages": true
             }
         ],
         "readPreference": "primary",
